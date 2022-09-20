@@ -20,18 +20,24 @@ Flavors of Cacao Rating System:
 Note to theingredients column:
 B (Beans), S (Sugar), S* (Sweetener other than sugar or beet sugar), C (Cocoa Butter), (V) Vanilla, (L) Lecithin, Sa (Salt)
 
-(Cited from https://www.kaggle.com/datasets/evangower/chocolate-bar-ratings)
+### **Citations**
+- Data information: https://www.kaggle.com/datasets/evangower/chocolate-bar-ratings)
 
 ## Exploratory Data Analysis
 
-Utilizing the dataset provided from Kaggle.com I will be answering the following questions:
+Utilizing the dataset provided from Kaggle.com I will be answering the following questions starting with my Minimun Viable Product (MVP):
+
+*MVP* 
 - What are the top 10 rated chocolate bars?
     - What are the 10 lowest rated chocolate bars?
-- Which manufacturer has the highest (cumulative) overall rating?
-    - Which has the lowest rating?
+- What are the top 5 manufactureres by rating?
+    - What are the 5 lowest rated?
 - Does the bean origin effect rating?
-    - Does the cocao percentage effect rating?
-    - Does the number of ingredients effect rating?
+
+*MVP +*
+- Does the cocao percentage effect rating?
+- Does the number of ingredients effect rating?
+
 - Is there any relationship at all between rating and other factors?
 
 ### Top and Bottom 10 rated chocolate bars
