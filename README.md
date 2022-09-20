@@ -30,8 +30,8 @@ Utilizing the dataset provided from Kaggle.com I will be answering the following
 *MVP* 
 - What are the top 10 rated chocolate bars?
     - What are the 10 lowest rated chocolate bars?
-- What are the top 5 manufactureres by rating?
-    - What are the 5 lowest rated?
+- What are the top 10 manufactureres by rating?
+    - What are the 10 lowest rated?
 - Does the bean origin effect rating?
 
 *MVP +*
@@ -40,5 +40,21 @@ Utilizing the dataset provided from Kaggle.com I will be answering the following
 
 - Is there any relationship at all between rating and other factors?
 
-### Top and Bottom 10 rated chocolate bars
+## Top and Bottom 10 rated chocolate bars
+___
+### Highest rated Chocolate bars
 
+Below is a table of 10 of the highest rated chocolate bars listed by name.
+
+|            Bar Name           | Rating |    Taste Review (Flavor Notes)   |
+|:-----------------------------:|:------:|:--------------------------------:|
+| Piura, Choc. Garage Exclusive |   4.0  | creamy, cocoa, grapes            |
+| Bejofo, 2019 H., Batch 20     |   4.0  | cherry, perfectly balanced roast |
+| Tumaco                        |   4.0  | smooth, nutty, cocoa             |
+| Manjari                       |   4.0  | creamy, blueberry, raspberry     |
+| Asante                        |   4.0  | simple, delicate cocoa, long     |
+| Chuao, batch 1089             |   4.0  | mild strawberry, cocoa, acidic   |
+| Valle de Los Rios, batch 990  |   4.0  | complex, strawberry, floral      |
+| San Juan de Cheni             |   4.0  | banana, pear, spice, cheese      |
+| Maya Mtn, Batch 454, Heirloom |   4.0  | bright fruit, molasses, nutty    |
+| Haiti                         |   4.0  | nuts, butterscotch, brownie      |
