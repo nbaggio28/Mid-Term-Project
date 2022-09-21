@@ -41,10 +41,12 @@ Utilizing the dataset provided from Kaggle.com I will be answering the following
 - Is there any relationship at all between rating and other factors?
 
 ## Top and Bottom 10 rated chocolate bars
-___
+**________________________________________________________**
 ### Highest rated Chocolate bars
+___
+The first thing I wanted to know when I looked at this data was what the top 10 rated bars were. Through my analysis I found that zero bars were rated higher than a 4.0 and there are 112 chocolate bars with a 4.0 rating.
 
-Below is a table of 10 of the highest rated chocolate bars listed by name.
+Below is a table, not in any order, of 10 of the 112 rated chocolate bars with their review.
 
 |            Bar Name           | Rating |    Taste Review (Flavor Notes)   |
 |:-----------------------------:|:------:|:--------------------------------:|
@@ -58,3 +60,6 @@ Below is a table of 10 of the highest rated chocolate bars listed by name.
 | San Juan de Cheni             |   4.0  | banana, pear, spice, cheese      |
 | Maya Mtn, Batch 454, Heirloom |   4.0  | bright fruit, molasses, nutty    |
 | Haiti                         |   4.0  | nuts, butterscotch, brownie      |
+___
+### Lowest rated Chocolate bars
+___
