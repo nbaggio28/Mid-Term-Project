@@ -1,4 +1,4 @@
-# Chocolate Bars Data Analysis overview
+# **Chocolate Bars Data Analysis overview**
 
 
 
@@ -37,16 +37,16 @@ Utilizing the dataset provided from Kaggle.com I will be answering the following
 *MVP +*
 - Does the cocao percentage effect rating?
 - Does the number of ingredients effect rating?
-
+- How many different bars did each manufacturer make?
 - Is there any relationship at all between rating and other factors?
 
-## Top and Bottom 10 rated chocolate bars
-**________________________________________________________**
+## **Top and Bottom 10 rated chocolate bars**
+
 ### Highest rated Chocolate bars
 ___
-The first thing I wanted to know when I looked at this data was what the top 10 rated bars were. Through my analysis I found that zero bars were rated higher than a 4.0 and there are 112 chocolate bars with a 4.0 rating.
+The first question that came up when looking at the data was, "What are the top 10 rated bars?". Through some exploratory analysis it was found that zero bars were rated higher than a 4.0 and there are 112 chocolate bars with a 4.0 rating.
 
-Below is a table, not in any order, of 10 of the 112 rated chocolate bars with their review.
+Below is a table, not in any order, of 10 of those 112 high rated chocolate bars along with the review of the flavor highlights.
 
 |            Bar Name           | Rating |    Taste Review (Flavor Notes)   |
 |:-----------------------------:|:------:|:--------------------------------:|
@@ -63,3 +63,24 @@ Below is a table, not in any order, of 10 of the 112 rated chocolate bars with t
 ___
 ### Lowest rated Chocolate bars
 ___
+Naturally, having found the highest rated, "What are the lowest rated bars?" was the next question. Looking at the data, 50 bars were rated at a 2.0 or lower. 
+
+
+The following graph depicts the 10 lowest ranking bars.
+
+![](../Mid-Term-Project/images/Lowest%20Rated%20Chocolate%20Bar.png)
+
+Below is a table with the lowest rated bars and thier review.
+
+|            Bar Name           |     Taste Review (Flavor Notes)    |
+|:-----------------------------:|:----------------------------------:|
+|       Sensations Intense      |        this is not chocolate       |
+| Principe, Sao Tome & Principe |     chalky, musty, very bitter     |
+|              Dark             |      pastey, strong off flavor     |
+|             Baking            |            bitter, cocoa           |
+|           Houseblend          |         chemical, salt, wtf        |
+|       Ecuador Puristique      |        high intensity bitter       |
+|          100 percent          |    sticky, intense, very bitter    |
+|           Pichincha           | klingy, hint of fruit, very bitter |
+|    El Oro, Hacienda de Oro    |   cardboard, very bitter, floral   |
+|             Ghana             |      perfume, strong chemical      |
