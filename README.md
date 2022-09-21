@@ -84,3 +84,11 @@ Below is a table with the lowest rated bars and thier review.
 |           Pichincha           | klingy, hint of fruit, very bitter |
 |    El Oro, Hacienda de Oro    |   cardboard, very bitter, floral   |
 |             Ghana             |      perfume, strong chemical      |
+
+___
+
+## **Highest and Lowest Rated Manufacturer**
+
+### Highest Rated Manufacturer
+___
+After looking at the highest and lowest ranked bars I wanted to look at which manufacturers had the highest and lowest ratings. The following graph shows the 10 highest and 10 lowest rated (cumulative) manufacturers.
