@@ -23,6 +23,7 @@ B (Beans), S (Sugar), S* (Sweetener other than sugar or beet sugar), C (Cocoa Bu
 ### **Citations**
 - Data information: https://www.kaggle.com/datasets/evangower/chocolate-bar-ratings)
 
+
 ## Exploratory Data Analysis
 
 Utilizing the dataset provided from Kaggle.com I will be answering the following questions starting with my Minimun Viable Product (MVP):
@@ -39,6 +40,9 @@ Utilizing the dataset provided from Kaggle.com I will be answering the following
 - Does the number of ingredients effect rating?
 - How many different bars did each manufacturer make?
 - Is there any relationship at all between rating and other factors?
+
+### *Note:*
+*No missing values or outliers were found durring analysis for MVP.*
 
 ## **Top and Bottom 10 rated chocolate bars**
 

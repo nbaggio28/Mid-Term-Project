@@ -92,9 +92,7 @@ def plot_summary(
     Function for creating/showing a graph
     """
 
-
     fig, ax = plt.subplots()
-
 
     plt.barh(dfcola, dfcolb, color= ('saddlebrown'))
     plt.yticks(dfcola, horizontalalignment='right', fontsize='10')
@@ -108,7 +106,7 @@ def plot_summary(
 def hilo_rated_bar_pipeline():
 
     """
-    Transform raw dataframe in to 10 highest rated dataset and
+    Transform raw dataframe in to 10 highest rated chocolate bars dataset and
     10 lowest rated to graph
     """
     hi_ten = trivalue_sort('bar_name','rating', 'review').head(10)
@@ -127,7 +125,7 @@ def hi_lo_manufac_pipeline():
 
     """
     Transform raw data to get the 10 highest and 10 lowest rated
-    manufacturers by their cumulative rating and show a graph
+    manufacturers by their cumulative rating to a series and show a graph
     """
 
     man_rated = two_sorted('manufacturer', 'rating')
@@ -144,7 +142,8 @@ def hi_lo_manufac_pipeline():
 def bean_origin_pipeline():
 
     """
-    
+    Filters raw data to to get highest 10 and lowest 10 rated bean origins to datasets
+    reseting thier indexes and prints a graph
     """
     
     bean_rating = two_sorted('bean_origin', 'rating')
@@ -162,6 +161,7 @@ def bean_origin_pipeline():
 
 
 if __name__ == "__main__":
+    """used to test functions"""
     #Import csv as dataset
     # chocbar_df = pd.read_csv("../data/chocolate_bars.csv")
     # test_series = valcount_and_sort('year_reviewed',chocbar_df)
@@ -175,4 +175,4 @@ if __name__ == "__main__":
     # "Manufacturer Name")
     # hilo_rated_bar_pipeline()
     # hi_lo_manufac_pipeline()
-    bean_origin_pipeline()
+    # bean_origin_pipeline()
