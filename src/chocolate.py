@@ -28,8 +28,8 @@ def trivalue_sort(col1, col2, col3, df=chocbar_df):
     values on top
     """
 
-    sorted_hivalues = df[[col1, col2, col3]].sort_values(col2, ascending=False)
-    return sorted_hivalues
+    sorted_values = df[[col1, col2, col3]].sort_values(col2, ascending=False)
+    return sorted_values
 
 
 
@@ -105,12 +105,74 @@ def plot_summary(
 
     plt.show()
 
+def hilo_rated_bar_pipeline():
+
+    """
+    Transform raw dataframe in to 10 highest rated dataset and
+    10 lowest rated to graph
+    """
+    hi_ten = trivalue_sort('bar_name','rating', 'review').head(10)
+    print(hi_ten)
+
+    lo_ten = trivalue_sort('bar_name','rating', 'review').tail(10)
+    lorated_graph = plot_summary(
+        lo_ten['bar_name'],
+        lo_ten['rating'],
+        "Lowest Rated Chocolate Bar",
+        "Chocolate Bar Name"
+     )
+    print(lorated_graph)
+
+def hi_lo_manufac_pipeline():
+
+    """
+    Transform raw data to get the 10 highest and 10 lowest rated
+    manufacturers by their cumulative rating and show a graph
+    """
+
+    man_rated = two_sorted('manufacturer', 'rating')
+    hi_man = sum_and_sort('manufacturer', 'rating').head(10)
+    lo_man = sum_and_sort('manufacturer', 'rating').tail(10)
+    hilo_man = add_two_lists(hi_man,lo_man)
+    rated_man = plot_summary(
+    hilo_man['manufacturer'],
+    hilo_man['rating'],
+    "Highest/Lowest Rated Chocolate Bar Manufacturer",
+    "Manufacturer Name")
+    print(rated_man)
+
+def bean_origin_pipeline():
+
+    """
     
+    """
+    
+    bean_rating = two_sorted('bean_origin', 'rating')
+    top_bean = sum_and_sort('bean_origin', 'rating')
+    hi_bean = top_bean.head(10).reset_index()
+    lo_bean = top_bean.tail(10).reset_index()
+    hilo_bean = add_two_lists(hi_bean,lo_bean)
+    bean_rated = plot_summary(
+    hilo_bean['bean_origin'],
+    hilo_bean['rating'],
+    "Where Do the Best Beans Originate?",
+    "Bean Origin")
+    print(bean_rated)
 
 
 
 if __name__ == "__main__":
     #Import csv as dataset
-    chocbar_df = pd.read_csv("../data/chocolate_bars.csv")
-    test_series = valcount_and_sort('year_reviewed',chocbar_df)
-    print(test_series)
+    # chocbar_df = pd.read_csv("../data/chocolate_bars.csv")
+    # test_series = valcount_and_sort('year_reviewed',chocbar_df)
+    # print(test_series)
+    # man_rated = two_sorted('manufacturer', 'rating')
+    # lo_man = sum_and_sort('manufacturer', 'rating').tail(10)
+    # plot_summary(
+    # lo_man['manufacturer'],
+    # lo_man['rating'],
+    # 'Lowest Rated Bars',
+    # "Manufacturer Name")
+    # hilo_rated_bar_pipeline()
+    # hi_lo_manufac_pipeline()
+    bean_origin_pipeline()

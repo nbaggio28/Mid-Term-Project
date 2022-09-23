@@ -32,7 +32,7 @@ Utilizing the dataset provided from Kaggle.com I will be answering the following
     - What are the 10 lowest rated chocolate bars?
 - What are the top 10 manufactureres by rating?
     - What are the 10 lowest rated?
-- Does the bean origin effect rating?
+- Where do the best cocoa beans originate?
 
 *MVP +*
 - Does the cocao percentage effect rating?
@@ -88,10 +88,18 @@ Below is a table with the lowest rated bars and thier review.
 ___
 
 ## **Highest and Lowest Rated Manufacturer**
-
-### Highest Rated Manufacturer
 ___
 After looking at the highest and lowest ranked bars I wanted to look at which manufacturers had the highest and lowest ratings. The following graph shows the 10 highest and 10 lowest rated (cumulative) manufacturers.
 
 ![](../Mid-Term-Project/images/Manufacturererating.png)
+
+___
+## Highest/Lowest rated bean origins
+___
+
+After looking at the best rated chocolate bars and the best manufacturers the question was raised, "Where do the best beans
+originate?". the following graph shows the cumulative ratings of each bean origin.
+
+![](../Mid-Term-Project/images/BeanOriginrating.png)
+
 
